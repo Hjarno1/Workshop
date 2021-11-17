@@ -1,7 +1,9 @@
+package com.workshop;
+
 import java.util.ArrayList;
 import java.util.UUID;
 
-public class Building extends Unit{
+public class Building extends Unit {
 
     ArrayList<Sensor> sensors;
     ArrayList<Actuator> actuators;

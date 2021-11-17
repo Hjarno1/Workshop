@@ -1,4 +1,4 @@
-import java.util.UUID;
+package com.workshop;
 
 public class Co2Sensor extends Sensor{
 
@@ -13,7 +13,7 @@ public class Co2Sensor extends Sensor{
 
     @Override
     public String toString() {
-        return "Co2Sensor{" +
+        return "com.workshop.Co2Sensor{" +
                 "name='" + name + '\'' +
                 ", id=" + id +
                 '}';

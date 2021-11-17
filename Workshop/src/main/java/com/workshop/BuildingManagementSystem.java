@@ -1,12 +1,15 @@
+package com.workshop;
+
 import java.util.ArrayList;
 import java.util.UUID;
 
 public class BuildingManagementSystem {
-    ArrayList<Building> buildings;
+    ArrayList<Building> buildings = new ArrayList<Building>();
 
     public ArrayList<Building> getBuildings() {
         return buildings;
     }
+
     public UUID addBuilding (String name) {
         Building aBuilding = new Building(name);
         buildings.add(aBuilding);

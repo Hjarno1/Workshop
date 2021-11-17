@@ -1,4 +1,4 @@
-import java.util.UUID;
+package com.workshop;
 
 public class
 Sensor extends Unit {

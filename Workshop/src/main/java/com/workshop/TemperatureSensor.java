@@ -1,3 +1,5 @@
+package com.workshop;
+
 public class TemperatureSensor extends Sensor{
 
     public TemperatureSensor(String name) {
@@ -11,7 +13,7 @@ public class TemperatureSensor extends Sensor{
 
     @Override
     public String toString() {
-        return "TemperatureSensor{" +
+        return "com.workshop.TemperatureSensor{" +
                 "name='" + name + '\'' +
                 ", id=" + id +
                 '}';

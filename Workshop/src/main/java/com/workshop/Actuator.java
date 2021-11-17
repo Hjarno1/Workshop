@@ -1,3 +1,5 @@
+package com.workshop;
+
 public class Actuator extends Unit{
 
     double value;

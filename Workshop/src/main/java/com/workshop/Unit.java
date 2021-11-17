@@ -1,3 +1,5 @@
+package com.workshop;
+
 import java.util.UUID;
 
 public class Unit {
@@ -21,7 +23,7 @@ public class Unit {
 
     @Override
     public String toString() {
-        return "Unit{" +
+        return "com.workshop.Unit{" +
                 "name='" + name + '\'' +
                 ", id=" + id +
                 '}';

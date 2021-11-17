@@ -1,3 +1,5 @@
+package com.workshop;
+
 public class VentilationActuator extends Actuator{
 
     public VentilationActuator(String name) {
@@ -6,7 +8,7 @@ public class VentilationActuator extends Actuator{
 
     @Override
     public String toString() {
-        return "VentilationActuator{" +
+        return "com.workshop.VentilationActuator{" +
                 "value=" + value +
                 ", name='" + name + '\'' +
                 ", id=" + id +
