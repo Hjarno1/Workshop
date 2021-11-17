@@ -35,4 +35,10 @@
 ### Klassediagram
 ![image](https://user-images.githubusercontent.com/55130904/142161668-824a109b-8f24-42bd-bfd5-b4f799ff23a0.png)
 
+## Sprint 3
+### Oprids af forskelle
+Den største forskel er at der er en Unit klasse. Ud over dette har både sensor og aktuater under klasser.
+
+### Opdateret Klassediagram
+![image](https://user-images.githubusercontent.com/55130904/142166896-9e36c743-aae1-4b88-bc02-e51e6ae9d9fa.png)
 
