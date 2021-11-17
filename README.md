@@ -47,13 +47,13 @@ Den største forskel er at der er en Unit klasse. Ud over dette har både sensor
 |---|---|
 |F01| JA|
 |F02| JA|
-|F03| JA|
-|F04| JA|
-|F05| JA|
-|F06| JA|
-|F07| JA|
-|F08| JA|
-|F09| JA|
-|F10| JA|
-|F11| JA|
-|F12| JA|
+|F03| NEJ|
+|F04| NEJ|
+|F05| NEJ|
+|F06| NEJ|
+|F07| NEJ|
+|F08| NEJ|
+|F09| NEJ|
+|F10| NEJ|
+|F11| NEJ|
+|F12| NEJ|
