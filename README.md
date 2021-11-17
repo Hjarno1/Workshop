@@ -42,3 +42,18 @@ Den største forskel er at der er en Unit klasse. Ud over dette har både sensor
 ### Opdateret Klassediagram
 ![image](https://user-images.githubusercontent.com/55130904/142166896-9e36c743-aae1-4b88-bc02-e51e6ae9d9fa.png)
 
+## Sprint 4
+|Krav| Understøttes det?|
+|---|---|
+|F01| JA|
+|F02| JA|
+|F03| JA|
+|F04| JA|
+|F05| JA|
+|F06| JA|
+|F07| JA|
+|F08| JA|
+|F09| JA|
+|F10| JA|
+|F11| JA|
+|F12| JA|
