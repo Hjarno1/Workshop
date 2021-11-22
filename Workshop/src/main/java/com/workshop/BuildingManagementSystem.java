@@ -1,6 +1,7 @@
 package com.workshop;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
@@ -28,22 +29,51 @@ public class BuildingManagementSystem implements IBuildingManagementSystem {
 
     @Override
     public Map<UUID, String> getBuildingInformation() {
-        return null;
+        Map<UUID, String> m = new HashMap<UUID, String>();
+
+        for (Building b : this.buildings) {
+            m.put(b.getId(), b.getName());
+        }
+
+        return m;
     }
 
     @Override
     public Map<UUID, String> getSensorInformation(UUID buildingId) {
-        return null;
+        Map<UUID, String> sensors = new HashMap<UUID, String>();
+
+        for (Building b : this.buildings) {
+            for (Sensor s : b.sensors) {
+                sensors.put(s.getId(), s.getName());
+            }
+        }
+
+        return sensors;
     }
 
     @Override
     public Map<UUID, String> getActuatorInformation(UUID buildingId) {
-        return null;
+        Map<UUID, String> actuators = new HashMap<UUID, String>();
+
+        for (Building b : this.buildings) {
+            for (Actuator a : b.actuators) {
+                actuators.put(a.getId(), a.getName());
+            }
+        }
+
+        return actuators;
     }
 
     @Override
     public UUID addTemperatureSensor(UUID buildingId, String name) {
-        return null;
+        UUID sensorUUID = UUID.randomUUID();
+        for (Building b : this.buildings) {
+            if (b.getId() == buildingId) {
+                sensorUUID = b.addTemperatureSensor(name);
+                return sensorUUID;
+            }
+        }
+        return sensorUUID;
     }
 
     @Override
